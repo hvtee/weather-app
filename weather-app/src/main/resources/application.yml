@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: weather-app
+  datasource:
+    url: "jdbc:mysql://localhost:3306/weather-app"
+    username: user
+    password: mysqluser
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    database: mysql
+    hibernate:
+      ddl-auto: create
+    show-sql: true
